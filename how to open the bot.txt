@@ -1,0 +1,6 @@
+before following, you need to know:
+- the path of the folder where bot.js is (watch this vid: https://www.youtube.com/watch?v=xnuwJGNtsv8 )
+
+Open CMD and type the following things
+cd *the path of the folder*
+Run the bot: node bot.js

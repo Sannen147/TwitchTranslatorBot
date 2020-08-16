@@ -1,0 +1,16 @@
+{
+  "status": 1,
+  "Channel": "XXX",
+  "Account1": {
+    "user": "XXX",
+    "Auth": "XXX"
+  },
+  "Account2": {
+    "user": "XXX",
+    "Auth": "XXX"
+  },
+  "Languages": {
+    "first": "ja",
+    "second": "en"
+  }
+}

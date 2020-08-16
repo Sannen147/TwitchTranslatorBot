@@ -1,5 +1,8 @@
-Hello!
-If the automatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot
+Hello! this bot has an extra function that activates when you reach google translate limit quota, and avoids it by restarting the bot with another twitch account (you need to put 2 twitch accounts(i'll fix that in the future)).
+If the automatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot.
+
+to fix:
+- the accounts change with just opening the bot, so it's not like you have an "alternative" account but "two possible bots" -- change it into --> opening the first account when opening the bot and only change the account if you use the command or google limit quota
 
 requisites: 
 - Node.js

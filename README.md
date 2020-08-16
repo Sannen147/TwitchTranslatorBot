@@ -1,5 +1,5 @@
 Hello!
-If the autoatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot
+If the automatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot
 
 requisites: 
 - Node.js

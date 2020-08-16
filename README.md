@@ -2,7 +2,7 @@ Hello! this bot has an extra function that activates when you reach google trans
 If the automatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot.
 
 to fix:
-- the accounts change with just opening the bot, so it's not like you have an "alternative" account but "two possible bots" -- change it into --> opening the first account when opening the bot and only change the account if you use the command or google limit quota
+- the accounts change with just opening the bot, so it's not like you have an "alternative" account but "two possible bots" -- change it into --> opening the first account when opening the bot and only change the account if you use the command or reaching google's limit quota
 
 requisites: 
 - Node.js

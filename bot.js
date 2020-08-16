@@ -62,7 +62,7 @@ client.on('chat', (channel, userstate, message, self) => { //detects a message i
                 client.action(Ch, msg);
             }
         }).catch(err => {
-            console.error(err);
+            console.log(err);
             fix_bot();
         });
     }

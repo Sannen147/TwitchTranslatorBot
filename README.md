@@ -2,7 +2,7 @@ Hello! this bot has an extra function that activates when you reach google trans
 If the automatic restart doesn't work, you can use the "-fix" command (only mods) to restart the bot.
 
 to fix:
-- changing accounts doesn't avoid google limit quota, I need to look for another way (after testing for a little bit i got "Undetermined" every time the bot tried to translate, probably google limit
+- changing accounts doesn't avoid google limit quota, I need to look for another way (after testing for a little bit i got "Undefined" every time the bot tried to translate, probably google limit
 
 requisites: 
 - Node.js

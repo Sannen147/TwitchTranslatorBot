@@ -75,19 +75,21 @@ function GetJson(){ //gets info from the JSON
     return configs;
 }
 
-function fix_bot(){ //this function restart the app
-    console.log("RESTARTING...");
-    setTimeout(function () {
-        process.on("exit", function () {
-            require("child_process").spawn(process.argv.shift(), process.argv, {
-                cwd: process.cwd(),
-                detached : true,
-                stdio: "inherit"
-            });
-        });
-        process.exit();
-    }, 5000);
+function fix_bot(){ //this restarts the app with nodemon
+    var config = GetJson();
+
+    if(config.status == 1){
+        config.status = 0;
+    }else if(config.status == 0){
+        config.status = 1;
+    }else{
+        console.log("Status Error")
+    }
+    
+    let data = JSON.stringify(config, null, 2);
+    fs.writeFileSync('configs.json', data);
 }
+
 
 function GetUser(){ //gets the username from the JSON
     var config = GetJson();
@@ -110,16 +112,11 @@ function GetPass(){ //gets the pass from the JSON
 
     if(config.status == 1){
         returnable = config.Account1.Auth;
-        config.status = 0;
     }else if(config.status == 0){
         returnable = config.Account2.Auth;
-        config.status = 1;
     }else{
         console.log("Status Error")
     }
-
-    let data = JSON.stringify(config, null, 2);
-    fs.writeFileSync('configs.json', data);
-
+    
     return returnable;// lol x2
 }

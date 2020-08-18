@@ -13,5 +13,8 @@
     "npm": "^6.14.7",
     "tmi.js": "^1.5.0",
     "translation-google": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

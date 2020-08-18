@@ -3,4 +3,4 @@ before following, you need to know:
 
 Open CMD and type the following things
 cd *the path of the folder*
-Run the bot: node bot.js
+Run the bot: nodemon bot.js

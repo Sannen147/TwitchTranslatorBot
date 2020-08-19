@@ -12,7 +12,7 @@ where to install it? (download LTS)
 
 configuration:
 - follow these instructions after installing Node.js!
-- go into the "Bot" folder
+- go into the bots directory
 - go into configs.json, right click and edit
 - replace the "xxx" with the data you need:
     - Channel : the channel where the bot will operate
